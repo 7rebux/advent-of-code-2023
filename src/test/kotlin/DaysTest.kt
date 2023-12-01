@@ -1,5 +1,5 @@
 import de.nosswald.aoc.Day
-import de.nosswald.aoc.days.Day01
+import de.nosswald.aoc.days.*
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.DynamicTest
 import org.junit.jupiter.api.TestFactory
@@ -13,7 +13,7 @@ class DaysTest {
 
     @TestFactory
     fun answers() = listOf(
-        Answer(Day01, 21, 720),
+        Answer(Day01, 56042, 55358),
     ).map {
         DynamicTest.dynamicTest("Day ${it.day.number} - ${it.day.title}") {
             if (it.day.partOneTestExamples.isNotEmpty()) {
