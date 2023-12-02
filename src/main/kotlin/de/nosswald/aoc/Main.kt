@@ -5,6 +5,7 @@ import de.nosswald.aoc.days.*
 object Main {
     private val days = listOf<Day<*>>(
         Day01,
+        Day02,
     )
 
     @JvmStatic
