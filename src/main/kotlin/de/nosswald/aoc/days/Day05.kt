@@ -4,20 +4,19 @@ import de.nosswald.aoc.Day
 
 // https://adventofcode.com/2023/day/5
 object Day05 : Day<Long>(5, "If You Give A Seed A Fertilizer") {
-    data class BlockEntry(val destinationRangeStart: Long, val sourceRangeStart: Long, val rangeLength: Long) {
-        val destinationRange get(): LongRange {
-            return destinationRangeStart until destinationRangeStart + rangeLength
-        }
-
+    data class RangeEntry(val destinationStart: Long, val sourceStart: Long, val length: Long) {
         val sourceRange get(): LongRange {
-            return sourceRangeStart until sourceRangeStart + rangeLength
+            return sourceStart until sourceStart + length
         }
 
-        fun destinationForSource(source: Long) = destinationRangeStart + (source - sourceRangeStart)
+        fun destinationForSource(source: Long): Long {
+            return destinationStart + (source - sourceStart)
+        }
     }
-    data class LookupMap(val entries: List<BlockEntry>)
 
-    private fun parseInput(input: List<String>): Pair<List<Long>, List<LookupMap>> {
+    data class ConversionMap(val entries: List<RangeEntry>)
+
+    private fun parseInput(input: List<String>): Pair<List<Long>, List<ConversionMap>> {
         val seeds = input
             .first()
             .removePrefix("seeds: ")
@@ -37,11 +36,11 @@ object Day05 : Day<Long>(5, "If You Give A Seed A Fertilizer") {
                             .map(String::toLong)
                     }
                     .map {
-                        BlockEntry(it[0], it[1], it[2])
+                        RangeEntry(it[0], it[1], it[2])
                     }
             }
             .map {
-                LookupMap(it)
+                ConversionMap(it)
             }
 
         return Pair(seeds, maps)
@@ -58,7 +57,24 @@ object Day05 : Day<Long>(5, "If You Give A Seed A Fertilizer") {
     }
 
     override fun partTwo(input: List<String>): Long {
-        return 0
+        val (seeds, maps) = parseInput(input)
+        val seedRanges = seeds
+            .windowed(2, 2)
+            .map { it[0] .. it[0] + it[1] }
+
+        val reversedMaps = maps.map {
+            ConversionMap(it.entries.map { old ->
+                RangeEntry(old.sourceStart, old.destinationStart, old.length)
+            })
+        }.reversed()
+
+        return generateSequence(0, Long::inc).first { location ->
+            val seed = reversedMaps.fold(location) { acc, map ->
+                map.entries.find { acc in it.sourceRange }?.destinationForSource(acc) ?: acc
+            }
+
+            seedRanges.any { seedRange -> seed in seedRange }
+        }
     }
 
     private val exampleInput = """
