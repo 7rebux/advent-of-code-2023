@@ -1,8 +1,8 @@
 # 🎄 [Advent Of Code 2023](https://adventofcode.com/2023)
 
-![Current day](https://img.shields.io/badge/Day-8-blue)
-![Stars obtained](https://img.shields.io/badge/Stars%20Obtained%20⭐-14-yellow)
-![Days completed](https://img.shields.io/badge/Days%20Completed-6-red)
+![Current day](https://img.shields.io/badge/Day-9-blue)
+![Stars obtained](https://img.shields.io/badge/Stars%20Obtained%20⭐-16-yellow)
+![Days completed](https://img.shields.io/badge/Days%20Completed-7-red)
 
 ### Daily Solution Index
 
@@ -16,3 +16,5 @@
 | ✔ 06 | Wait For It                     |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nosswald/aoc/days/Day06.kt) | [![Blog](https://img.shields.io/badge/Blog-grey?style=for-the-badge&logo=Blogger)](https://www.nilsosswald.de/blog/aoc-2023-6) |
 | x 07 | Camel Cards                     |   ⭐    |   ❌    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nosswald/aoc/days/Day07.kt) | [![Blog](https://img.shields.io/badge/Blog-grey?style=for-the-badge&logo=Blogger)](https://www.nilsosswald.de/blog/aoc-2023-7) |
 | ✔ 08 | Haunted Wasteland               |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nosswald/aoc/days/Day08.kt) | [![Blog](https://img.shields.io/badge/Blog-grey?style=for-the-badge&logo=Blogger)](https://www.nilsosswald.de/blog/aoc-2023-8) |
+| ✔ 08 | Haunted Wasteland               |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nosswald/aoc/days/Day08.kt) | [![Blog](https://img.shields.io/badge/Blog-grey?style=for-the-badge&logo=Blogger)](https://www.nilsosswald.de/blog/aoc-2023-8) |
+| ✔ 09 | Mirage Maintenance              |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nosswald/aoc/days/Day09.kt) | [![Blog](https://img.shields.io/badge/Blog-grey?style=for-the-badge&logo=Blogger)](https://www.nilsosswald.de/blog/aoc-2023-9) |
