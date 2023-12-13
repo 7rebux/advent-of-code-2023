@@ -22,6 +22,9 @@ class DaysTest {
         Answer(Day07, 250898830, 252127335),
         Answer(Day08, 18827, 20220305520997),
         Answer(Day09, 1647269739, 864),
+        Answer(Day10, 6778, 0),
+        Answer(Day11, 10292708, 790194712336),
+        Answer(Day12, 0, 0),
     ).map {
         DynamicTest.dynamicTest("Day ${it.day.number} - ${it.day.title}") {
             if (it.day.partOneTestExamples.isNotEmpty()) {
