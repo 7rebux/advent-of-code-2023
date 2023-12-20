@@ -1,6 +1,6 @@
 # 🎄 [Advent Of Code 2023](https://adventofcode.com/2023)
 
-![Current day](https://img.shields.io/badge/Day-15-blue)
+![Current day](https://img.shields.io/badge/Day-20-blue)
 ![Stars obtained](https://img.shields.io/badge/Stars%20Obtained%20⭐-22-yellow)
 ![Days completed](https://img.shields.io/badge/Days%20Completed-10-red)
 
@@ -23,3 +23,9 @@
 | x 13 | Point of Incidence              |   ❌    |   ❌    |                                                                                                                                  |                                                                                                                                |
 | x 14 | Parabolic Reflector Dish        |   ❌    |   ❌    |                                                                                                                                  |                                                                                                                                |
 | ✔ 15 | Lens Library                    |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nosswald/aoc/days/Day15.kt) |                                                                                                                                |
+| x 16 | The Floor Will Be Lava          |   ❌    |   ❌    |                                                                                                                                  |                                                                                                                                |
+| x 17 | Clumsy Crucible                 |   ❌    |   ❌    |                                                                                                                                  |                                                                                                                                |
+| x 18 | Lavaduct Lagoon                 |   ❌    |   ❌    |                                                                                                                                  |                                                                                                                                |
+| x 19 | Aplenty                         |   ❌    |   ❌    |                                                                                                                                  |                                                                                                                                |
+| x 20 | Pulse Propagation               |   ❌    |   ❌    |                                                                                                                                  |                                                                                                                                |
+
