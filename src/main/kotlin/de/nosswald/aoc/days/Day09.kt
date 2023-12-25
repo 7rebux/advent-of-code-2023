@@ -2,7 +2,7 @@ package de.nosswald.aoc.days
 
 import de.nosswald.aoc.Day
 
-// https://adventofcode.com/2023/day/8
+// https://adventofcode.com/2023/day/9
 object Day09 : Day<Int>(9, "Mirage Maintenance") {
     private fun parseInput(input: List<String>): List<List<Int>> {
         return input.map { line -> line.split(" ").map(String::toInt) }
