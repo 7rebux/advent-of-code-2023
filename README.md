@@ -1,7 +1,7 @@
 # 🎄 [Advent Of Code 2023](https://adventofcode.com/2023)
 
 ![Current day](https://img.shields.io/badge/Day-25-blue)
-![Stars obtained](https://img.shields.io/badge/Stars%20Obtained%20⭐-24-yellow)
+![Stars obtained](https://img.shields.io/badge/Stars%20Obtained%20⭐-25-yellow)
 ![Days completed](https://img.shields.io/badge/Days%20Completed-11-red)
 
 ### Daily Solution Index
@@ -28,7 +28,7 @@
 | x 18 | Lavaduct Lagoon                 |   ❌    |   ❌    |                                                                                                                                  |                                                                                                                                 |
 | x 19 | Aplenty                         |   ❌    |   ❌    |                                                                                                                                  |                                                                                                                                 |
 | x 20 | Pulse Propagation               |   ❌    |   ❌    |                                                                                                                                  |                                                                                                                                 |
-| x 21 | Step Counter                    |   ❌    |   ❌    |                                                                                                                                  |                                                                                                                                 |
+| x 21 | Step Counter                    |   ⭐    |   ❌    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nosswald/aoc/days/Day21.kt) |                                                                                                                                 |
 | x 22 | Sand Slabs                      |   ❌    |   ❌    |                                                                                                                                  |                                                                                                                                 |
 | x 23 | A Long Walk                     |   ❌    |   ❌    |                                                                                                                                  |                                                                                                                                 |
 | x 24 | Never Tell Me The Odds          |   ❌    |   ❌    |                                                                                                                                  |                                                                                                                                 |
