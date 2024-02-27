@@ -22,7 +22,7 @@ class DaysTest {
         Answer(Day07, 250898830, 252127335),
         Answer(Day08, 18827, 20220305520997),
         Answer(Day09, 1647269739, 864),
-        Answer(Day10, 6778, 0),
+        Answer(Day10, 6778, 433),
         Answer(Day11, 10292708, 790194712336),
         Answer(Day15, 507291, 296921),
         Answer(Day21, 3646, 0),
